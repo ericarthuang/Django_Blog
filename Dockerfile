@@ -1,4 +1,4 @@
-FROM python:3.10.8
+FROM python:3.10.8-slim
 ENV PYTHONUNBUFFERED 1
 WORKDIR /django-app
 COPY . .
